@@ -108,6 +108,13 @@
     justify-content: center;
 }
 
+.technical-main .event-btn-div{
+    right: 12vw;
+    left: unset;
+}
+
+
+
 a.event-btn{
     font-size: 25px;
     text-align: center;
@@ -123,6 +130,20 @@ a.event-btn{
 
 }
 
+.technical-main a.event-btn{
+    color:white;
+    border-radius:10px ;
+    border-color: white;
+    transition: border-color 0.5s, border-width 0.5s, color 0.5s;
+}
+
+.technical-main a.event-btn:hover{
+    color:rgb(243, 135, 135);
+    border-radius:10px ;
+    border-width: 2.5px;
+    border-color: rgb(204, 126, 126);
+    background-color: rgba(0, 0, 0,0.1);
+}
 
 @media screen and (max-width:360px){
     .heading p{
