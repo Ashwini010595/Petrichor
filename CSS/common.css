@@ -97,6 +97,12 @@
     opacity: 0.3;
 }
 
+.computer-anim{
+    position: absolute;
+    bottom: 1px;
+    left: 2px;
+}
+
 .event-btn-div{
     z-index: 100;
     position: absolute;
@@ -134,14 +140,14 @@ a.event-btn{
     color:white;
     border-radius:10px ;
     border-color: white;
-    transition: border-color 0.5s, border-width 0.5s, color 0.5s;
+    transition: border-color border-width 0.5s;
 }
 
 .technical-main a.event-btn:hover{
     color:rgb(243, 135, 135);
     border-radius:10px ;
     border-width: 2.5px;
-    border-color: rgb(204, 126, 126);
+    border-color: rgb(238, 151, 151);
     background-color: rgba(0, 0, 0,0.1);
 }
 
